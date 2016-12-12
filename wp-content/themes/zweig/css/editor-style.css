@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic&subset=all);
+body {
+  font-family: Verdana, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  background-color: white;
+  color: #2d2d2d; }
+
+h1, h2, h3, h4 {
+  text-transform: lowercase;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-weight: normal; }
+
+a {
+  color: #d43b1d;
+  text-decoration: none; }
+
+h5, h6 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+  font-weight: normal; }
+
+blockquote {
+  text-transform: lowercase;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  text-transform: none;
+  line-height: 2em; }
+  blockquote cite {
+    display: block; }
+  blockquote cite:before {
+    content: '\2014 \0000a0'; }
+
+cite {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+  font-style: normal;
+  font-size: 0.8em; }
+  cite:before {
+    content: '\2014 \0000a0'; }
+
+table {
+  width: 100%; }
+  table thead {
+    border-bottom: 1px #cbcbcb solid;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-variant: small-caps; }
+  table tbody {
+    text-align: left;
+    line-height: 2em; }
+  table tr {
+    border-bottom: 1px #cbcbcb solid; }
+  table tr:nth-child(even) {
+    background-color: #f9f8fa; }
+
+dt {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps; }
+
+dd {
+  padding-bottom: 1em; }
+
+address {
+  font-style: normal; }

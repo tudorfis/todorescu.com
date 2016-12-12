@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic&subset=all);
+/*
+Theme Name: Zweig
+Theme URI: http://www.vandereecken.me
+Description: Zweig is a blog theme optimized for readibility. It's only purpose is to support writing and writing only.
+Author: Simon Vandereecken
+Author URI: http://www.vandereecken.me
+Version: 0.1
+Tags: white, black, orange
+
+License: GPL (Version 3, 29 June 2007)
+License URI: http://www.gnu.org/licenses/gpl.html
+*/
+/* Typography */
+h1, h2, h3, h4, h5 {
+  font-family: "Baskerville", "Chancery", serif;
+  font-weight: normal; }
+
+a {
+  color: #d43b1d;
+  text-decoration: none; }
+
+/* Elements */
+body {
+  margin: 5em 0;
+  font-family: Verdana, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5; }
+
+.wrapper {
+  width: 39em;
+  margin: auto;
+  font-weight: lighter; }
+
+.clearer {
+  clear: both; }
+
+.alignleft {
+  float: left; }
+
+.alignright {
+  float: right; }
+
+/* Single */
+.post-title {
+  text-transform: lowercase;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 3em;
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig";
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig";
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig";
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig";
+  font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig"; }
+
+.post-date, .post-meta p {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+  font-size: 0.8em;
+  margin-bottom: 2.5em;
+  margin-top: 0;
+  padding-top: 0; }
+
+/* Post metas */
+.post-meta {
+  margin-top: 4em; }
+
+/* Post navigation */
+.post-navigation {
+  font-family: "Libre Baskerville", serif;
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: 1em;
+  margin-top: 3em; }
+
+/* Author Box */
+.author-box {
+  clear: both;
+  border-top: grey 1px solid;
+  padding-top: 2em;
+  margin-top: 4em; }
+
+.author-avatar {
+  width: 100px;
+  height: 100px;
+  margin-right: 2em;
+  margin-bottom: 5em;
+  border-radius: 100px;
+  float: left;
+  overflow: hidden; }
+  .author-avatar img {
+    max-width: 100%; }
+
+.author-description p {
+  padding: 0;
+  margin: 0; }
